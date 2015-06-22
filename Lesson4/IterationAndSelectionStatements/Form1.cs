@@ -19,29 +19,48 @@ namespace IterationAndSelectionStatements
 
         private void button1_Click(object sender, EventArgs e)
         {
-            if (comboBox1.Text == "Mooney")
-            {
-                MessageBox.Show("Howdy Mooney");
-            }
+           
+         //      if (comboBox1.Text == "Mooney")
+         //   {
+         //       MessageBox.Show("Howdy Mooney");
+         //   }
 
-           else if (comboBox1.Text == "MoonBear")
-            {
-                MessageBox.Show("wooo");
-            }
+         //  else if (comboBox1.Text == "MoonBear")
+         //   {
+         //       MessageBox.Show("wooo");
+         //   }
 
-            else if (comboBox1.Text == "MoonSlice")
-            {
-                MessageBox.Show("Still Workin");
-            }
+         //   else if (comboBox1.Text == "MoonSlice")
+         //   {
+         //       MessageBox.Show("Still Workin");
+         //   }
 
-            else if (comboBox1.Text == "MoonBeam")
-            {
-                MessageBox.Show("happy Days!");
-            }
+         //   else if (comboBox1.Text == "MoonBeam")
+         //   {
+         //       MessageBox.Show("happy Days!");
+         //   }
 
+         //   else
+         // {
+         //       MessageBox.Show("WRONG!");
+         //} 
+            
+            
+            
+            if (comboBox1.Text != "Mooney")
+            {
+                if (comboBox1.Text == "MoonBear")
+                {
+                    MessageBox.Show("MoonBear?");
+                }
+                else
+                {
+                    MessageBox.Show("Who even are you?");
+                }
+            }
             else
             {
-                MessageBox.Show("WRONG!");
+                MessageBox.Show("Wassup Mooney");
             }
         }
     }
