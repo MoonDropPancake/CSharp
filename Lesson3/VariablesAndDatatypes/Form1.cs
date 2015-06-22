@@ -25,10 +25,21 @@ namespace VariablesAndDatatypes
             //MessageBox.Show(hello);
             //MessageBox.Show("hello");
             
-            String firstTextBox = textBox1.Text;
-            String secondTextBox = textBox2.Text;
+            //String firstTextBox = textBox1.Text;
+            //String secondTextBox = textBox2.Text;
 
-            label3.Text = firstTextBox + " " + secondTextBox;
+            //label3.Text = firstTextBox + " " + secondTextBox;
+
+            int firstTextBox = 0;
+            int secondTextBox = 0;
+            int result = 0;
+
+            firstTextBox = int.Parse(textBox1.Text);
+            secondTextBox = int.Parse(textBox2.Text);
+
+            result = firstTextBox + secondTextBox;
+            label3.Text = result.ToString();
+
         }
     }
 }
