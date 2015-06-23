@@ -63,5 +63,29 @@ namespace IterationAndSelectionStatements
                 MessageBox.Show("Wassup Mooney");
             }
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            switch (listBox1.SelectedItem.ToString())
+            {
+                case "Foobar":
+                    MessageBox.Show("You Picked Foobar");
+                    break;
+
+                case "Bazquirk":
+                    MessageBox.Show("You picked Bazquirk");
+                    break;
+
+                default:
+                    MessageBox.Show("You picked wrong!");
+                    break;
+            }
+            
+            }
     }
 }
